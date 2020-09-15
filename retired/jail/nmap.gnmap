@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Sat Jun 29 20:17:48 2019 as: nmap -sC -sV -oA nmap -p 22,80,111,2049,7411,20048 10.10.10.34
+Host: 10.10.10.34 ()	Status: Up
+Host: 10.10.10.34 ()	Ports: 22/open/tcp//ssh//OpenSSH 6.6.1 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS))/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 2049/open/tcp//nfs_acl//3 (RPC #100227)/, 7411/open/tcp//daqstream?///, 20048/open/tcp//mountd//1-3 (RPC #100005)/
+# Nmap done at Sat Jun 29 20:20:47 2019 -- 1 IP address (1 host up) scanned in 179.03 seconds

@@ -1,0 +1,45 @@
+
+root@bunny:~/Desktop/hackthebox/machines/luke# dirb http://10.10.10.137
+
+-----------------
+DIRB v2.22
+By The Dark Raver
+-----------------
+
+START_TIME: Sun May 26 22:49:12 2019
+URL_BASE: http://10.10.10.137/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.137/ ----
+==> DIRECTORY: http://10.10.10.137/css/
+--> Testing: http://10.10.10.137/editor
+.03                                                                             + http://10.10.10.137/index.html (CODE:200|SIZE:3138)
+==> DIRECTORY: http://10.10.10.137/js/
++ http://10.10.10.137/LICENSE (CODE:200|SIZE:1093)
++ http://10.10.10.137/management (CODE:401|SIZE:381)
+==> DIRECTORY: http://10.10.10.137/member/
+==> DIRECTORY: http://10.10.10.137/vendor/
+
+---- Entering directory: http://10.10.10.137/css/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://10.10.10.137/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://10.10.10.137/member/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://10.10.10.137/vendor/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+-----------------
+END_TIME: Sun May 26 23:13:21 2019
+DOWNLOADED: 4612 - FOUND: 3

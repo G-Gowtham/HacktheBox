@@ -1,0 +1,13 @@
+# Nmap 7.60 scan initiated Sun Oct 20 13:48:29 2019 as: nmap -sC -sV -p 3366 -oN tcp_3366 10.10.10.92
+Nmap scan report for 10.10.10.92
+Host is up (0.24s latency).
+
+PORT     STATE SERVICE VERSION
+3366/tcp open  caldav  Radicale calendar and contacts server (Python BaseHTTPServer)
+| http-auth: 
+| HTTP/1.0 401 Unauthorized\x0D
+|_  Basic realm=Test
+|_http-title: Site doesn't have a title (text/html).
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 20 13:49:00 2019 -- 1 IP address (1 host up) scanned in 31.31 seconds

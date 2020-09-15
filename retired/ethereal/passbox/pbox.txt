@@ -1,0 +1,39 @@
+
+
+  -=[  PasswordBox  ]=-
+
+
+PasswordBox is a console-mode program which will keep all your passwords safe, inside an encrypted database.
+This program is written by Mateusz Viste, and uses the AES implementation of Chris Brown to handle all encryption/decryption processes.
+
+PasswordBox is available for the following operating systems: DOS, Windows, Linux.
+
+Usage: pbox [--help] [--dump]
+  --help  displays a help screen (any unsupported parameter will display it, too)
+  --dump  lists all the data of your encrypted database onscreen
+
+CAUTION: This program features 128 bits AES encryption, which might be illegal in your country.
+
+
+
+ ** Legal stuff **
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+
+ ** FAQ **
+
+Q: Where does PasswordBox store its encrypted database?
+A: The location of the database (which is, by the way, a single file) depends on the system you are running PasswordBox on. To know where the database is stored on your system, just type "pbox --help" - the location of the database will be printed on the screen.
+
+Q: I lost my master password! How can I recover all informations that I stored inside my encrypted database?
+A: You can't. That's the whole point of encrypting informations: you won't be able to get these informations unless you provide the password which was used to encrypt the database.
+
+Q: Why have you created yet another password-keeping program?? They are already plenty of them out there!
+A: That's right, there are many programs which allows you to keep a database of passwords, PINs, etc. However, I needed a *simple* program running on my Linux console, so I could access it easily via remote sessions. I couldn't find any program fulfilling these needs, therefore I decided to write my own.
+
+Q: I don't trust you. How do I know that your program isn't secretly sending all my personal passwords to you?
+A: PasswordBox, unlike many other similar applications, is published on a open source license (GNU/GPL). This allows you to examine the source code of PasswordBox, which is available on my website, and recompile it by yourself if you really want to.

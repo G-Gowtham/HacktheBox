@@ -1,0 +1,52 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb
+START_TIME: Mon Jun 24 22:59:44 2019
+URL_BASE: http://10.10.10.9/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.9/ ----
++ http://10.10.10.9/0 (CODE:200|SIZE:7583)
++ http://10.10.10.9/admin (CODE:403|SIZE:1233)
++ http://10.10.10.9/Admin (CODE:403|SIZE:1233)
++ http://10.10.10.9/ADMIN (CODE:403|SIZE:1233)
++ http://10.10.10.9/batch (CODE:403|SIZE:1233)
+==> DIRECTORY: http://10.10.10.9/includes/
++ http://10.10.10.9/index.php (CODE:200|SIZE:7583)
++ http://10.10.10.9/install.mysql (CODE:403|SIZE:1233)
++ http://10.10.10.9/install.pgsql (CODE:403|SIZE:1233)
+==> DIRECTORY: http://10.10.10.9/misc/
+==> DIRECTORY: http://10.10.10.9/Misc/
+==> DIRECTORY: http://10.10.10.9/modules/
++ http://10.10.10.9/node (CODE:200|SIZE:7583)
+==> DIRECTORY: http://10.10.10.9/profiles/
++ http://10.10.10.9/repository (CODE:403|SIZE:1233)
++ http://10.10.10.9/rest (CODE:200|SIZE:62)
++ http://10.10.10.9/robots.txt (CODE:200|SIZE:2189)
++ http://10.10.10.9/root (CODE:403|SIZE:1233)
++ http://10.10.10.9/Root (CODE:403|SIZE:1233)
+==> DIRECTORY: http://10.10.10.9/scripts/
+==> DIRECTORY: http://10.10.10.9/Scripts/
++ http://10.10.10.9/search (CODE:403|SIZE:1233)
++ http://10.10.10.9/Search (CODE:403|SIZE:1233)
+==> DIRECTORY: http://10.10.10.9/sites/
+==> DIRECTORY: http://10.10.10.9/Sites/
++ http://10.10.10.9/tag (CODE:403|SIZE:1233)
++ http://10.10.10.9/template (CODE:403|SIZE:1233)
+==> DIRECTORY: http://10.10.10.9/themes/
+==> DIRECTORY: http://10.10.10.9/Themes/
++ http://10.10.10.9/user (CODE:200|SIZE:7420)
++ http://10.10.10.9/xmlrpc.php (CODE:200|SIZE:42)
+
+-----------------
+END_TIME: Tue Jun 25 02:16:33 2019
+DOWNLOADED: 4612 - FOUND: 20

@@ -1,0 +1,9 @@
+# Nmap 7.60 scan initiated Sun Oct 20 12:01:23 2019 as: nmap -p- -oN tcp_allports 10.10.10.92
+Nmap scan report for 10.10.10.92
+Host is up (0.16s latency).
+Not shown: 65533 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3366/tcp open  creativepartnr
+
+# Nmap done at Sun Oct 20 12:14:04 2019 -- 1 IP address (1 host up) scanned in 761.05 seconds

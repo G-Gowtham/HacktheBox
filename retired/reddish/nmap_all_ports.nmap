@@ -1,0 +1,10 @@
+# Nmap 7.60 scan initiated Sat Jul 27 22:00:36 2019 as: nmap -p- -T3 --max-retries 0 -v -oA nmap_all_ports 10.10.10.94
+Warning: 10.10.10.94 giving up on port because retransmission cap hit (0).
+Nmap scan report for 10.10.10.94
+Host is up (0.27s latency).
+Not shown: 44406 closed ports, 21128 filtered ports
+PORT     STATE SERVICE
+1880/tcp open  vsat-control
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jul 27 22:09:15 2019 -- 1 IP address (1 host up) scanned in 519.04 seconds

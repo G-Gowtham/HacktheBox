@@ -1,0 +1,56 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Sat Jun 15 13:50:51 2019
+URL_BASE: http://10.10.10.6/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.6/ ----
++ http://10.10.10.6/cgi-bin/ (CODE:403|SIZE:286)
++ http://10.10.10.6/index (CODE:200|SIZE:177)
++ http://10.10.10.6/index.html (CODE:200|SIZE:177)
++ http://10.10.10.6/server-status (CODE:403|SIZE:291)
++ http://10.10.10.6/test (CODE:200|SIZE:47328)
+==> DIRECTORY: http://10.10.10.6/torrent/
+
+---- Entering directory: http://10.10.10.6/torrent/ ----
+==> DIRECTORY: http://10.10.10.6/torrent/admin/
++ http://10.10.10.6/torrent/browse (CODE:200|SIZE:9278)
++ http://10.10.10.6/torrent/comment (CODE:200|SIZE:936)
++ http://10.10.10.6/torrent/config (CODE:200|SIZE:0)
+==> DIRECTORY: http://10.10.10.6/torrent/css/
+==> DIRECTORY: http://10.10.10.6/torrent/database/
++ http://10.10.10.6/torrent/download (CODE:200|SIZE:0)
++ http://10.10.10.6/torrent/edit (CODE:200|SIZE:0)
+==> DIRECTORY: http://10.10.10.6/torrent/health/
++ http://10.10.10.6/torrent/hide (CODE:200|SIZE:3765)
+==> DIRECTORY: http://10.10.10.6/torrent/images/
++ http://10.10.10.6/torrent/index (CODE:200|SIZE:11355)
++ http://10.10.10.6/torrent/index.php (CODE:200|SIZE:11356)
+==> DIRECTORY: http://10.10.10.6/torrent/js/
+==> DIRECTORY: http://10.10.10.6/torrent/lib/
++ http://10.10.10.6/torrent/login (CODE:200|SIZE:8371)
++ http://10.10.10.6/torrent/logout (CODE:200|SIZE:182)
++ http://10.10.10.6/torrent/preview (CODE:200|SIZE:28104)
+==> DIRECTORY: http://10.10.10.6/torrent/readme/
++ http://10.10.10.6/torrent/rss (CODE:200|SIZE:964)
++ http://10.10.10.6/torrent/secure (CODE:200|SIZE:4)
++ http://10.10.10.6/torrent/stylesheet (CODE:200|SIZE:321)
+==> DIRECTORY: http://10.10.10.6/torrent/templates/
++ http://10.10.10.6/torrent/thumbnail (CODE:200|SIZE:1789)
+==> DIRECTORY: http://10.10.10.6/torrent/torrents/
+==> DIRECTORY: http://10.10.10.6/torrent/upload/
++ http://10.10.10.6/torrent/upload_file (CODE:200|SIZE:0)
+==> DIRECTORY: http://10.10.10.6/torrent/users/
+
+---- Entering directory: http://10.10.10.6/torrent/admin/ ----
++ http://10.10.10.6/torrent/admin/admin (CODE:200|SIZE:2988)
++ http://10.10.10.6/torrent/admin/admin.php (CODE:200|SIZE:2988)

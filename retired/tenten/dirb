@@ -1,0 +1,30 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb
+START_TIME: Wed Jun 26 11:03:46 2019
+URL_BASE: http://10.10.10.10/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.10/ ----
++ http://10.10.10.10/.bashrc (CODE:200|SIZE:3771)
+==> DIRECTORY: http://10.10.10.10/.cache/
++ http://10.10.10.10/.profile (CODE:200|SIZE:655)
++ http://10.10.10.10/index.php (CODE:301|SIZE:0)
++ http://10.10.10.10/server-status (CODE:403|SIZE:299)
+==> DIRECTORY: http://10.10.10.10/wp-admin/
+==> DIRECTORY: http://10.10.10.10/wp-content/
+==> DIRECTORY: http://10.10.10.10/wp-includes/
++ http://10.10.10.10/xmlrpc.php (CODE:405|SIZE:42)
+
+-----------------
+END_TIME: Wed Jun 26 11:29:31 2019
+DOWNLOADED: 4612 - FOUND: 5

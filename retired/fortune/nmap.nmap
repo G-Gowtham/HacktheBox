@@ -1,0 +1,15 @@
+# Nmap 7.60 scan initiated Tue Sep 17 11:12:02 2019 as: nmap -sC -sV -oA nmap 10.10.10.127
+Nmap scan report for 10.10.10.127
+Host is up (1.0s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE    VERSION
+22/tcp  open  ssh        OpenSSH 7.9 (protocol 2.0)
+| ssh-hostkey: 
+|   256 30:4b:25:47:17:84:af:60:e2:80:20:9d:fd:86:88:46 (ECDSA)
+|_  256 93:56:4a:ee:87:9d:f6:5b:f9:d9:25:a6:d8:e0:08:7e (EdDSA)
+80/tcp  open  http       OpenBSD httpd
+|_http-title: Fortune
+443/tcp open  ssl/https?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 17 11:15:52 2019 -- 1 IP address (1 host up) scanned in 229.73 seconds

@@ -1,0 +1,22 @@
+
+root@bunny:~/Desktop/hackthebox/retired/tenten# for i in $(seq 1 20); do echo -n "$i: ";curl -s http://10.10.10.10/index.php/jobs/apply/$i/ | grep '<t
+itle>'; done
+1: 2: <title>Job Application: Sample Page &#8211; Job Portal</title>
+3: <title>Job Application: Auto Draft &#8211; Job Portal</title>
+4: <title>Job Application &#8211; Job Portal</title>
+5: <title>Job Application: Jobs Listing &#8211; Job Portal</title>
+6: <title>Job Application: Job Application &#8211; Job Portal</title>
+7: <title>Job Application: Register &#8211; Job Portal</title>
+8: <title>Job Application: Pen Tester &#8211; Job Portal</title>
+9: <title>Job Application:  &#8211; Job Portal</title>
+10: <title>Job Application: Application &#8211; Job Portal</title>
+11: <title>Job Application: cube &#8211; Job Portal</title>
+12: <title>Job Application: Application &#8211; Job Portal</title>
+13: <title>Job Application: HackerAccessGranted &#8211; Job Portal</title>
+14: <title>Job Application: Application &#8211; Job Portal</title>
+15: <title>Job Application: logo600 &#8211; Job Portal</title>
+16: <title>Job Application: Application &#8211; Job Portal</title>
+17: <title>Job Application: mediterranean-beach-wallpaper &#8211; Job Portal</title>
+18: <title>Job Application &#8211; Job Portal</title>
+19: <title>Job Application &#8211; Job Portal</title>
+20: <title>Job Application &#8211; Job Portal</title>

@@ -1,0 +1,83 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Sun Jun 16 18:03:46 2019
+URL_BASE: http://10.10.10.7/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.7/ ----
+(!) WARNING: NOT_FOUND[] not stable, unable to determine correct URLs {30X}.
+    (Try using FineTunning: '-f')
+
+-----------------
+END_TIME: Sun Jun 16 18:03:47 2019
+DOWNLOADED: 0 - FOUND: 0
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Sun Jun 16 18:04:27 2019
+URL_BASE: http://10.10.10.7/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.7/ ----
+(!) WARNING: NOT_FOUND[] not stable, unable to determine correct URLs {30X}.
+    (Try using FineTunning: '-f')
+
+-----------------
+END_TIME: Sun Jun 16 18:04:29 2019
+DOWNLOADED: 0 - FOUND: 0
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Sun Jun 16 18:04:51 2019
+URL_BASE: https://10.10.10.7/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: https://10.10.10.7/ ----
+==> DIRECTORY: https://10.10.10.7/admin/
++ https://10.10.10.7/cgi-bin/ (CODE:403|SIZE:286)
+==> DIRECTORY: https://10.10.10.7/configs/
++ https://10.10.10.7/favicon.ico (CODE:200|SIZE:894)
+==> DIRECTORY: https://10.10.10.7/help/
+==> DIRECTORY: https://10.10.10.7/images/
++ https://10.10.10.7/index.php (CODE:200|SIZE:1785)
+==> DIRECTORY: https://10.10.10.7/lang/
+==> DIRECTORY: https://10.10.10.7/libs/
+==> DIRECTORY: https://10.10.10.7/mail/
+==> DIRECTORY: https://10.10.10.7/modules/
+==> DIRECTORY: https://10.10.10.7/panel/
++ https://10.10.10.7/robots.txt (CODE:200|SIZE:28)
+==> DIRECTORY: https://10.10.10.7/static/
+==> DIRECTORY: https://10.10.10.7/themes/
+==> DIRECTORY: https://10.10.10.7/var/
+
+-----------------
+END_TIME: Sun Jun 16 19:16:25 2019
+DOWNLOADED: 4612 - FOUND: 4

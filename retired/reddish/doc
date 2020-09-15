@@ -1,0 +1,16 @@
+ip on subnet 172.19.0.0
+online 172.19.0.1
+online 172.19.0.2
+online 172.19.0.3
+online 172.19.0.4
+
+open ports:
+
+root@nodered:/node-red# for port in $(seq 1 65535);do (echo gg > /dev/tcp/172.19.0.2/$port && echo "port -$port") 2>/dev/null; done
+<9.0.2/$port && echo "port -$port") 2>/dev/null; done                        
+port -80
+
+
+root@nodered:/node-red# for port in $(seq 1 65535);do (echo gg > /dev/tcp/172.19.0.3/$port && echo "port -$port") 2>/dev/null; done
+<9.0.3/$port && echo "port -$port") 2>/dev/null; done                        
+port -6379

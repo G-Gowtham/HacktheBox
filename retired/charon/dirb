@@ -1,0 +1,68 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb
+START_TIME: Fri Jun 21 12:41:34 2019
+URL_BASE: http://10.10.10.31/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.31/ ----
+
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: OPERATION TIMEOUT)
+
+-----------------
+END_TIME: Fri Jun 21 12:46:10 2019
+DOWNLOADED: 162 - FOUND: 0
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb
+START_TIME: Fri Jun 21 12:55:59 2019
+URL_BASE: http://10.10.10.31/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.31/ ----
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb
+START_TIME: Fri Jun 21 12:56:10 2019
+URL_BASE: http://10.10.10.31/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.31/ ----
+==> DIRECTORY: http://10.10.10.31/css/
+==> DIRECTORY: http://10.10.10.31/fonts/
+==> DIRECTORY: http://10.10.10.31/images/
+==> DIRECTORY: http://10.10.10.31/include/
++ http://10.10.10.31/index.html (CODE:200|SIZE:2546)
+==> DIRECTORY: http://10.10.10.31/js/
++ http://10.10.10.31/server-status (CODE:403|SIZE:299)
+
+-----------------
+END_TIME: Fri Jun 21 13:22:58 2019
+DOWNLOADED: 4612 - FOUND: 2

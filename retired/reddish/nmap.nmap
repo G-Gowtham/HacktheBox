@@ -1,0 +1,7 @@
+# Nmap 7.60 scan initiated Sat Jul 27 21:33:05 2019 as: nmap -sC -sV -oA nmap 10.10.10.94
+Nmap scan report for 10.10.10.94
+Host is up (3.0s latency).
+All 1000 scanned ports on 10.10.10.94 are closed
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul 27 21:33:15 2019 -- 1 IP address (1 host up) scanned in 10.95 seconds

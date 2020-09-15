@@ -1,0 +1,8 @@
+# Nmap 7.60 scan initiated Wed Jul 17 08:59:59 2019 as: nmap -g 443 -p- -oA nmap_all_ports 10.10.10.112
+Nmap scan report for bighead.htb (10.10.10.112)
+Host is up (0.16s latency).
+Not shown: 65534 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Wed Jul 17 09:03:54 2019 -- 1 IP address (1 host up) scanned in 235.26 seconds

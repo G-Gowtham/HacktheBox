@@ -1,0 +1,31 @@
+# Nmap 7.60 scan initiated Mon Jul  1 23:09:02 2019 as: nmap -sU -sC -oA snmp 10.10.10.20
+Nmap scan report for 10.10.10.20
+Host is up (0.21s latency).
+Not shown: 999 closed ports
+PORT    STATE SERVICE
+161/udp open  snmp
+| snmp-info: 
+|   enterprise: net-snmp
+|   engineIDFormat: unknown
+|   engineIDData: fcf2da02d0831859
+|   snmpEngineBoots: 8
+|_  snmpEngineTime: 19h29m27s
+| snmp-processes: 
+|   1: 
+| 
+|   384: 
+| 
+|   390: 
+| 
+|   469: 
+| 
+|   486: 
+| 
+|   489: 
+| 
+|_  511: 
+| snmp-sysdescr: Linux Sneaky 4.4.0-75-generic #96~14.04.1-Ubuntu SMP Thu Apr 20 11:06:56 UTC 2017 i686
+|_  System uptime: 19h29m27.58s (7016758 timeticks)
+|_snmp-win32-software: 
+
+# Nmap done at Mon Jul  1 23:28:26 2019 -- 1 IP address (1 host up) scanned in 1163.83 seconds

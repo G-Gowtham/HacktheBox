@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Wed Jun 19 21:23:25 2019 as: nmap -sC -sV -oA nmap 10.10.10.11
+Host: 10.10.10.11 ()	Status: Up
+Host: 10.10.10.11 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 8500/open/tcp//fmtp?///, 49154/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (997)
+# Nmap done at Wed Jun 19 21:26:33 2019 -- 1 IP address (1 host up) scanned in 188.28 seconds

@@ -1,0 +1,24 @@
+# Nmap 7.60 scan initiated Sun Oct 20 15:02:44 2019 as: nmap -sC -sV -oN nmap/tcp_ip6 -6 dead:beef:0000:0000:0250:56ff:feb0:6d04
+Nmap scan report for dead:beef::250:56ff:feb0:6d04
+Host is up (0.18s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 2a:90:a6:b1:e6:33:85:07:15:b2:ee:a7:b9:46:77:52 (RSA)
+|   256 d0:d7:00:7c:3b:b0:a6:32:b2:29:17:8d:69:a6:84:3f (ECDSA)
+|_  256 3f:1c:77:93:5c:c0:6c:ea:26:f4:bb:6c:59:e9:7c:b0 (EdDSA)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: 400 Bad Request
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| address-info: 
+|   IPv6 EUI-64: 
+|     MAC address: 
+|       address: 00:50:56:b0:6d:04
+|_      manuf: VMware
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 20 15:03:21 2019 -- 1 IP address (1 host up) scanned in 36.49 seconds

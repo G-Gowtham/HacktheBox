@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Sat Jun 29 20:17:48 2019 as: nmap -sC -sV -oA nmap -p 22,80,111,2049,7411,20048 10.10.10.34 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap -p 22,80,111,2049,7411,20048 10.10.10.34" start="1561839468" startstr="Sat Jun 29 20:17:48 2019" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="6" services="22,80,111,2049,7411,20048"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1561839469" endtime="1561839647"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="6.6.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.6.1</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 cd:ec:19:7c:da:dc:16:e2:a3:9d:42:f3:18:4b:e6:4d (RSA)&#xa;  256 af:94:9f:2f:21:d0:e0:1d:ae:8e:7f:1d:7b:d7:42:ef (ECDSA)&#xa;  256 6b:f8:dc:27:4f:1c:89:67:a4:67:c5:ed:07:53:af:97 (EdDSA)"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
+<elem key="fingerprint">cdec197cdadc16e2a39d42f3184be64d</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQC10JBZuYCiFDOwkbbeqZLrL1s7wXMbVZxPJOg4cW4gdpi1OvuyiWsJ09dbfCzjnUjNzA/e2RU7+LNygV2XlDPNCltWmuBQX1aBihxmK7iFMRjM12Yeg90h1kKlezc3WOv+M1YREOIKFBW7jbUiwf4z2z+tfi92d3ZN58FgAmysPaLVR/Ct+pd9AyiSJiLCEzVYWN78lQd09D33yl1MY9no85qaWr5lgnZ3YEd7kTtCXFjICiMgir3zCrZCRHHobsMH+FO3RqbOv9AHfe51rtid9UXRojgSMuzfDV19x/PwYNFMuuAhnJVFRCxXClawpILp2YuBTFJsu1juXDcqfJD/</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">af949f2f21d0e01dae8e7f1d7bd742ef</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDm08eT3joqYGfJK9t2+Bn5vXB5FHMnM7DIFVhXG3Up5XYwgxOnywl8gBGtcWtXqXNUkyqP8dApTHh9wljFH5A0=</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">6bf8dc274f1c8967a467c5ed0753af97</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIJLJbZLS01Zdaxy/HoDmoUF7fBBi3BhS/NW9NShcGaOs</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.6" extrainfo="(CentOS)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.6</cpe></service><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.6 (CentOS)"><elem>Apache/2.4.6 (CentOS)</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html; charset=UTF-8)."></script></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2,3,4        111/tcp  rpcbind&#xa;  100000  2,3,4        111/udp  rpcbind&#xa;  100003  3,4         2049/tcp  nfs&#xa;  100003  3,4         2049/udp  nfs&#xa;  100005  1,2,3      20048/tcp  mountd&#xa;  100005  1,2,3      20048/udp  mountd&#xa;  100021  1,3,4      36775/udp  nlockmgr&#xa;  100021  1,3,4      39919/tcp  nlockmgr&#xa;  100024  1          32820/udp  status&#xa;  100024  1          54742/tcp  status&#xa;  100227  3           2049/tcp  nfs_acl&#xa;  100227  3           2049/udp  nfs_acl&#xa;"><table key="100024">
+<table key="udp">
+<elem key="port">32820</elem>
+<table key="version">
+<elem>1</elem>
+</table>
+</table>
+<table key="tcp">
+<elem key="port">54742</elem>
+<table key="version">
+<elem>1</elem>
+</table>
+</table>
+</table>
+<table key="100005">
+<table key="udp">
+<elem key="port">20048</elem>
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
+</table>
+</table>
+<table key="tcp">
+<elem key="port">20048</elem>
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
+</table>
+</table>
+</table>
+<table key="100003">
+<table key="tcp">
+<elem key="port">2049</elem>
+<table key="version">
+<elem>3</elem>
+<elem>4</elem>
+</table>
+</table>
+<table key="udp">
+<elem key="port">2049</elem>
+<table key="version">
+<elem>3</elem>
+<elem>4</elem>
+</table>
+</table>
+</table>
+<table key="100000">
+<table key="tcp">
+<elem key="port">111</elem>
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+</table>
+<table key="udp">
+<elem key="port">111</elem>
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+</table>
+</table>
+<table key="100021">
+<table key="udp">
+<elem key="port">36775</elem>
+<table key="version">
+<elem>1</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+</table>
+<table key="tcp">
+<elem key="port">39919</elem>
+<table key="version">
+<elem>1</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+</table>
+</table>
+<table key="100227">
+<table key="tcp">
+<elem key="port">2049</elem>
+<table key="version">
+<elem>3</elem>
+</table>
+</table>
+<table key="udp">
+<elem key="port">2049</elem>
+<table key="version">
+<elem>3</elem>
+</table>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="2049"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="nfs_acl" version="3" extrainfo="RPC #100227" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="7411"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="daqstream" servicefp="SF-Port7411-TCP:V=7.60%I=7%D=6/29%Time=5D17C775%P=x86_64-pc-linux-gnu%r(NULL,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(GenericLines,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(GetRequest,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(HTTPOptions,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(RTSPRequest,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(RPCCheck,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(DNSVersionBindReq,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(DNSStatusRequest,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(Help,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(SSLSessionReq,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(TLSSessionReq,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(Kerberos,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(SMBProgNeg,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(X11Probe,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(FourOhFourRequest,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(LPDString,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(LDAPSearchReq,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(LDAPBindReq,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(SIPOptions,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(LANDesk-RC,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(TerminalServer,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(NCP,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(NotesRPC,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(JavaRMI,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(WMSRequest,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(oracle-tns,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(afp,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;)%r(giop,1D,&quot;OK\x20Ready\.\x20Send\x20USER\x20command\.\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  DNSStatusRequest, DNSVersionBindReq, FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, NCP, NULL, NotesRPC, RPCCheck, RTSPRequest, SIPOptions, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, WMSRequest, X11Probe, afp, giop, oracle-tns: &#xa;    OK Ready. Send USER command."><elem key="DNSStatusRequest, DNSVersionBindReq, FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, NCP, NULL, NotesRPC, RPCCheck, RTSPRequest, SIPOptions, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, WMSRequest, X11Probe, afp, giop, oracle-tns">&#xa;    OK Ready. Send USER command.</elem>
+</script></port>
+<port protocol="tcp" portid="20048"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/></port>
+</ports>
+<times srtt="257075" rttvar="58709" to="491911"/>
+</host>
+<runstats><finished time="1561839647" timestr="Sat Jun 29 20:20:47 2019" elapsed="179.03" summary="Nmap done at Sat Jun 29 20:20:47 2019; 1 IP address (1 host up) scanned in 179.03 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

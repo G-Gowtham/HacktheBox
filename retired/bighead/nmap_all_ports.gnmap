@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Wed Jul 17 08:59:59 2019 as: nmap -g 443 -p- -oA nmap_all_ports 10.10.10.112
+Host: 10.10.10.112 (bighead.htb)	Status: Up
+Host: 10.10.10.112 (bighead.htb)	Ports: 80/open/tcp//http///	Ignored State: filtered (65534)
+# Nmap done at Wed Jul 17 09:03:54 2019 -- 1 IP address (1 host up) scanned in 235.26 seconds

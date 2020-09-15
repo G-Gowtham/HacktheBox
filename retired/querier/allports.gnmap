@@ -1,0 +1,5 @@
+# Nmap 7.60 scan initiated Tue Jul  2 13:53:36 2019 as: nmap -p- -oA allports -vvv 10.10.10.125
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.125 ()	Status: Up
+Host: 10.10.10.125 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 1433/open/tcp//ms-sql-s///, 5985/open/tcp//wsman///, 47001/open/tcp//winrm///, 49664/open/tcp/////, 49665/open/tcp/////, 49666/open/tcp/////, 49667/open/tcp/////, 49668/open/tcp/////, 49669/open/tcp/////, 49670/open/tcp/////, 49671/open/tcp/////	Ignored State: closed (65521)
+# Nmap done at Tue Jul  2 14:18:21 2019 -- 1 IP address (1 host up) scanned in 1484.93 seconds

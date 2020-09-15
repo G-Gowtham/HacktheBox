@@ -1,0 +1,76 @@
+
+t@bunny:~/droopescan# ./droopescan drupal -u 10.10.10.9
+usage: droopescan (sub-commands ...) [options ...] {arguments ...}
+droopescan: error: unrecognized arguments: drupal -u 10.10.10.9
+root@bunny:~/droopescan# ./droopescan scan drupal -u 10.10.10.9
+^C
+Shutting down...
+Traceback (most recent call last):
+  File "./droopescan", line 5, in <module>
+    droopescan.main()
+  File "/root/droopescan/dscan/droopescan.py", line 55, in main
+    ds.run()
+  File "/usr/local/lib/python2.7/dist-packages/cement/core/foundation.py", line 764, in run
+    self.controller._dispatch()
+  File "/usr/local/lib/python2.7/dist-packages/cement/core/controller.py", line 466, in _dispatch
+    return func()
+  File "/usr/local/lib/python2.7/dist-packages/cement/core/controller.py", line 472, in _dispatch
+    return func()
+  File "/root/droopescan/dscan/plugins/drupal.py", line 44, in drupal
+    self.plugin_init()
+  File "/root/droopescan/dscan/plugins/internal/base_plugin_internal.py", line 296, in plugin_init
+    self.process_url(opts, functionality, enabled_functionality, hide_progressbar)
+  File "/root/droopescan/dscan/plugins/internal/base_plugin_internal.py", line 316, in process_url
+    hide_progressbar=hide_progressbar)
+  File "/root/droopescan/dscan/plugins/internal/base_plugin_internal.py", line 413, in url_scan
+    url, host_header = self.determine_redirect(url, host_header, opts)
+  File "/root/droopescan/dscan/plugins/internal/base_plugin_internal.py", line 496, in determine_redirect
+    opts['timeout'], self._generate_headers(host_header))
+  File "/root/droopescan/dscan/plugins/internal/base_plugin_internal.py", line 462, in _determine_redirect
+    r = requests_verb(url, timeout=timeout, headers=headers, allow_redirects=False)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 543, in head
+    return self.request('HEAD', url, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.10.10.9', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc0e6f459d0>: Failed to establish a new connection: [Errno 4] Interrupted system call',))
+root@bunny:~/droopescan# ./droopescan scan drupal -u 10.10.10.9
+[+] Themes found:
+    seven http://10.10.10.9/themes/seven/
+    garland http://10.10.10.9/themes/garland/
+
+[+] Possible interesting urls found:
+    Default changelog file - http://10.10.10.9/CHANGELOG.txt
+    Default admin - http://10.10.10.9/user/login
+
+[+] Possible version(s):
+    7.54
+
+[+] Plugins found:
+    ctools http://10.10.10.9/sites/all/modules/ctools/
+        http://10.10.10.9/sites/all/modules/ctools/CHANGELOG.txt
+        http://10.10.10.9/sites/all/modules/ctools/changelog.txt
+        http://10.10.10.9/sites/all/modules/ctools/CHANGELOG.TXT
+        http://10.10.10.9/sites/all/modules/ctools/LICENSE.txt
+        http://10.10.10.9/sites/all/modules/ctools/API.txt
+    libraries http://10.10.10.9/sites/all/modules/libraries/
+        http://10.10.10.9/sites/all/modules/libraries/CHANGELOG.txt
+        http://10.10.10.9/sites/all/modules/libraries/changelog.txt
+        http://10.10.10.9/sites/all/modules/libraries/CHANGELOG.TXT
+        http://10.10.10.9/sites/all/modules/libraries/README.txt
+        http://10.10.10.9/sites/all/modules/libraries/readme.txt
+        http://10.10.10.9/sites/all/modules/libraries/README.TXT
+        http://10.10.10.9/sites/all/modules/libraries/LICENSE.txt
+    services http://10.10.10.9/sites/all/modules/services/
+        http://10.10.10.9/sites/all/modules/services/README.txt
+        http://10.10.10.9/sites/all/modules/services/readme.txt
+        http://10.10.10.9/sites/all/modules/services/README.TXT
+        http://10.10.10.9/sites/all/modules/services/LICENSE.txt
+    image http://10.10.10.9/modules/image/
+    profile http://10.10.10.9/modules/profile/
+    php http://10.10.10.9/modules/php/
+
+[+] Scan finished (0:46:27.804437 elapsed)

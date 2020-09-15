@@ -1,0 +1,1 @@
+# Nmap 7.60 scan initiated Sat Oct 19 22:54:29 2019 as: nmap -p- -v -oN nmap/nmap_allports 10.10.10.92

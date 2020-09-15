@@ -1,0 +1,22 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb
+START_TIME: Sun Jul  7 20:26:06 2019
+URL_BASE: http://10.10.10.106/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.106/ ----
+==> DIRECTORY: http://10.10.10.106/corp/
+
+-----------------
+END_TIME: Sun Jul  7 21:42:19 2019
+DOWNLOADED: 4612 - FOUND: 0

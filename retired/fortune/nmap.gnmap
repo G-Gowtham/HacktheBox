@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Tue Sep 17 11:12:02 2019 as: nmap -sC -sV -oA nmap 10.10.10.127
+Host: 10.10.10.127 ()	Status: Up
+Host: 10.10.10.127 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.9 (protocol 2.0)/, 80/open/tcp//http//OpenBSD httpd/, 443/open/tcp//ssl|https?///	Ignored State: closed (997)
+# Nmap done at Tue Sep 17 11:15:52 2019 -- 1 IP address (1 host up) scanned in 229.73 seconds

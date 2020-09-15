@@ -1,0 +1,9 @@
+# Nmap 7.60 scan initiated Sun Jul 28 23:30:02 2019 as: nmap -sT -p 8004 -sC -sV -oN nmap_6379_pscan 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000098s latency).
+
+PORT     STATE SERVICE VERSION
+8004/tcp open  redis   Redis key-value store
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jul 28 23:30:09 2019 -- 1 IP address (1 host up) scanned in 6.92 seconds

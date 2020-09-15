@@ -1,0 +1,5 @@
+# Nmap 7.60 scan initiated Sat Jul 27 22:00:36 2019 as: nmap -p- -T3 --max-retries 0 -v -oA nmap_all_ports 10.10.10.94
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.94 ()	Status: Up
+Host: 10.10.10.94 ()	Ports: 1880/open/tcp//vsat-control///
+# Nmap done at Sat Jul 27 22:09:15 2019 -- 1 IP address (1 host up) scanned in 519.04 seconds

@@ -1,0 +1,13 @@
+# Nmap 7.60 scan initiated Wed Sep 18 13:34:54 2019 as: nmap -oN after_nmap 10.10.10.127
+Nmap scan report for 10.10.10.127
+Host is up (0.31s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+2049/tcp open  nfs
+8081/tcp open  blackice-icecap
+
+# Nmap done at Wed Sep 18 13:35:34 2019 -- 1 IP address (1 host up) scanned in 40.58 seconds

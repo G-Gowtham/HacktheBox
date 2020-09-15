@@ -1,0 +1,6 @@
+/images (Status: 301)
+/css (Status: 301)
+/js (Status: 301)
+/include (Status: 301)
+/fonts (Status: 301)
+/cmsdata (Status: 301)

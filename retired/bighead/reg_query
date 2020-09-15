@@ -1,0 +1,5 @@
+reg query HKLM /f Password /t REG_SZ /s
+
+reg query output found key:
+H73BpUY2Uq9U-Yugyt5FYUbY0-U87t87
+H73BpUY0Uq9U-Yugyt5FYUbY0-U87t87

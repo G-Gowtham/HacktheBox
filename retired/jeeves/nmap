@@ -1,0 +1,60 @@
+# Nmap 7.60 scan initiated Fri Oct 11 22:24:30 2019 as: nmap -sC -sV -oN nmap 10.10.10.63
+Nmap scan report for 10.10.10.63
+Host is up (0.32s latency).
+Not shown: 996 filtered ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Ask Jeeves
+135/tcp   open  msrpc?
+445/tcp   open  microsoft-ds?
+50000/tcp open  ibm-db2?
+| fingerprint-strings: 
+|   drda, ibm-db2-das: 
+|     HTTP/1.1 400 Illegal character 0x0
+|     Content-Type: text/html;charset=iso-8859-1
+|     Content-Length: 64
+|     Connection: close
+|     Server: Jetty(9.4.z-SNAPSHOT)
+|     <h1>Bad Message 400</h1><pre>reason: Illegal character 0x0</pre>
+|   ibm-db2: 
+|     HTTP/1.1 400 Illegal character 0x1
+|     Content-Type: text/html;charset=iso-8859-1
+|     Content-Length: 64
+|     Connection: close
+|     Server: Jetty(9.4.z-SNAPSHOT)
+|_    <h1>Bad Message 400</h1><pre>reason: Illegal character 0x1</pre>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port50000-TCP:V=7.60%I=7%D=10/11%Time=5DA1015A%P=x86_64-pc-linux-gnu%r(
+SF:ibm-db2-das,D8,"HTTP/1\.1\x20400\x20Illegal\x20character\x200x0\r\nCont
+SF:ent-Type:\x20text/html;charset=iso-8859-1\r\nContent-Length:\x2064\r\nC
+SF:onnection:\x20close\r\nServer:\x20Jetty\(9\.4\.z-SNAPSHOT\)\r\n\r\n<h1>
+SF:Bad\x20Message\x20400</h1><pre>reason:\x20Illegal\x20character\x200x0</
+SF:pre>")%r(ibm-db2,D8,"HTTP/1\.1\x20400\x20Illegal\x20character\x200x1\r\
+SF:nContent-Type:\x20text/html;charset=iso-8859-1\r\nContent-Length:\x2064
+SF:\r\nConnection:\x20close\r\nServer:\x20Jetty\(9\.4\.z-SNAPSHOT\)\r\n\r\
+SF:n<h1>Bad\x20Message\x20400</h1><pre>reason:\x20Illegal\x20character\x20
+SF:0x1</pre>")%r(drda,D8,"HTTP/1\.1\x20400\x20Illegal\x20character\x200x0\
+SF:r\nContent-Type:\x20text/html;charset=iso-8859-1\r\nContent-Length:\x20
+SF:64\r\nConnection:\x20close\r\nServer:\x20Jetty\(9\.4\.z-SNAPSHOT\)\r\n\
+SF:r\n<h1>Bad\x20Message\x20400</h1><pre>reason:\x20Illegal\x20character\x
+SF:200x0</pre>");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 10m54s, deviation: 0s, median: 10m54s
+| smb-security-mode: 
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-10-11 22:36:44
+|_  start_date: 2019-10-11 22:27:34
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 11 22:26:27 2019 -- 1 IP address (1 host up) scanned in 117.21 seconds

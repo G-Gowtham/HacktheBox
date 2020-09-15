@@ -1,0 +1,22 @@
+TCP    0.0.0.0:80             PiedPiper:0            LISTENING       2152     InHost                                                                
+  TCP    0.0.0.0:80             PiedPiper:0            LISTENING       3380     InHost                                                                
+  TCP    0.0.0.0:135            PiedPiper:0            LISTENING       888      InHost                                                                
+  TCP    0.0.0.0:2020           PiedPiper:0            LISTENING       1500     InHost                                                                
+  TCP    0.0.0.0:5357           PiedPiper:0            LISTENING       4        InHost                                                                
+  TCP    0.0.0.0:8018           PiedPiper:0            LISTENING       4084     InHost                                                                
+  TCP    0.0.0.0:8028           PiedPiper:0            LISTENING       2752     InHost                                                                
+  TCP    0.0.0.0:8038           PiedPiper:0            LISTENING       2328     InHost                                                                
+  TCP    0.0.0.0:8048           PiedPiper:0            LISTENING       1164     InHost                                                               
+  TCP    0.0.0.0:8058           PiedPiper:0            LISTENING       2968     InHost                                                               
+  TCP    0.0.0.0:8068           PiedPiper:0            LISTENING       1076     InHost                                                               
+  TCP    0.0.0.0:8078           PiedPiper:0            LISTENING       1644     InHost                                                               
+  TCP    0.0.0.0:8088           PiedPiper:0            LISTENING       2764     InHost                                                               
+  TCP    0.0.0.0:47001          PiedPiper:0            LISTENING       4        InHost                                                               
+  TCP    0.0.0.0:49152          PiedPiper:0            LISTENING       540      InHost                                                               
+  TCP    0.0.0.0:49153          PiedPiper:0            LISTENING       936      InHost                                                               
+  TCP    0.0.0.0:49154          PiedPiper:0            LISTENING       1068     InHost                                                               
+  TCP    0.0.0.0:49155          PiedPiper:0            LISTENING       632      InHost                                                               
+  TCP    0.0.0.0:49156          PiedPiper:0            LISTENING       620      InHost                                  
+
+
+port 2020 :BvSshServer.exe               1500                            0     11,992 K        

@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Sat Jun 15 12:40:33 2019 as: nmap -sC -sV -oA nmap 10.10.10.4
+Host: 10.10.10.4 ()	Status: Up
+Host: 10.10.10.4 ()	Ports: 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows XP microsoft-ds/, 3389/closed/tcp//ms-wbt-server///	Ignored State: filtered (997)
+# Nmap done at Sat Jun 15 12:45:28 2019 -- 1 IP address (1 host up) scanned in 295.42 seconds

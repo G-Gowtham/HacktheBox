@@ -1,0 +1,1 @@
+c:\progra~2\openssl-v1.1.0\bin\openssl.exe s_client -quiet -connect 10.10.14.16:73 |cmd.exe| 

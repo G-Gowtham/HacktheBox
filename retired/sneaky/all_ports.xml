@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Mon Jul  1 22:57:18 2019 as: nmap -p- -oA all_ports 10.10.10.20 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA all_ports 10.10.10.20" start="1562021838" startstr="Mon Jul  1 22:57:18 2019" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="SYN Stealth Scan" time="1562022581" percent="34.42" remaining="1414" etc="1562023995"/>
+<taskprogress task="SYN Stealth Scan" time="1562022581" percent="34.43" remaining="1414" etc="1562023994"/>
+<taskprogress task="SYN Stealth Scan" time="1562023779" percent="66.32" remaining="986" etc="1562024764"/>
+<taskprogress task="SYN Stealth Scan" time="1562024646" percent="91.45" remaining="263" etc="1562024908"/>
+<host starttime="1562021838" endtime="1562025150"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.20" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="resets" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="189420" rttvar="5054" to="209636"/>
+</host>
+<runstats><finished time="1562025150" timestr="Mon Jul  1 23:52:30 2019" elapsed="3311.57" summary="Nmap done at Mon Jul  1 23:52:30 2019; 1 IP address (1 host up) scanned in 3311.57 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

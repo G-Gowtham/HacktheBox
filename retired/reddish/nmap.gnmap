@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Sat Jul 27 21:33:05 2019 as: nmap -sC -sV -oA nmap 10.10.10.94
+Host: 10.10.10.94 ()	Status: Up
+Host: 10.10.10.94 ()	Status: Up
+# Nmap done at Sat Jul 27 21:33:15 2019 -- 1 IP address (1 host up) scanned in 10.95 seconds

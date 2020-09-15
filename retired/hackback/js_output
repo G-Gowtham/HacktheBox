@@ -1,0 +1,35 @@
+> x
+'Secure Login Bypass'
+> y
+'Just in case I loose access to the admin panel'
+> z
+'Remember the secret path is'
+> w
+'Nothing more to say'
+> h
+'2bb6916122f1da34dcd916421e531578'
+> y
+'Just in case I loose access to the admin panel'
+> t
+'?action=(show,list,exec,init)'
+> i
+'&password=********'
+> k
+'&session='
+> a
+[ 'WxIjwr7DusO8GsKvRwB+wq3DuMKrwrLDgcOiwrY1KEEgG8KCwq7Dl8K3',
+  'AcOMwqvDqQgCw4/Ct2nDtMKhZcKDwqTCpTsyw7nChsOQXMO5W8KpDsOtNCDDvAjCgyk=',
+  'w5HDr8O7dDRmMMKJw4jDlVRnwrt7w7s0wo1aw7sAQsKsfsOEw4XDsRjClMOwFzrCmzpvCAjCuBzDssK9F8O4wqZnWsKh' ]
+> b
+{ [Function]
+  OoACcd: [Function],
+  qSLwGk: 
+   { '0': 'Remember the secret path is',
+     '1': '2bb6916122f1da34dcd916421e531578',
+     '2': 'Just in case I loose access to the admin panel' },
+  MsULmv: true,
+  pIjlQB: true }
+> s
+'&site=(twitter,paypal,facebook,hackthebox)'
+> 
+[htb] 0:openvpn  1:ctree  2:gobuster  3:bash- 4:js*                                                                            "bunny" 16:13 14-Aug-19

@@ -1,0 +1,10 @@
+* Changes history of PasswordBox *
+
+PasswordBox v0.11 (25 Aug 2010)
+ - Fixed the aborting action when creating a new entry (a new field was created anyway),
+ - The help screen (pbox --help) is providing the location of the encrypted database now,
+ - The PasswordBox process doesn't hog 100% of CPU anymore when launched without any terminal,
+ - Added minor optimizations to the text input routine.
+
+PasswordBox v0.10 (29 Oct 2009)
+ - First public release.

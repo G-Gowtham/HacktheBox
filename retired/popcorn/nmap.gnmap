@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Sat Jun 15 13:40:54 2019 as: nmap -sC -sV -oA nmap 10.10.10.6
+Host: 10.10.10.6 ()	Status: Up
+Host: 10.10.10.6 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.1p1 Debian 6ubuntu2 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.12 ((Ubuntu))/	Ignored State: closed (998)
+# Nmap done at Sat Jun 15 13:41:16 2019 -- 1 IP address (1 host up) scanned in 21.63 seconds

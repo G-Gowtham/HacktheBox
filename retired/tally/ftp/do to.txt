@@ -1,0 +1,9 @@
+
+To do:
+
+Remove migration folder
+Set secure share permissions
+
+encrypted share creds:
+
+password in keepass
